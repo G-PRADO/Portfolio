@@ -1,0 +1,160 @@
+@media screen and (min-width: 600px) and (max-width: 799px) {
+
+    .secao1{
+        display: flex;
+        height: 60vh;
+        width: 100%;
+        margin-top: 5cm;
+    }
+
+    .nome, .mobile, .sigla{
+        font-size: 30px;
+    }
+
+    .imgInicio, .img-link{
+        width: 40px;
+        height: 40px;
+    }
+
+    .redes-Contato{
+        display: flex;
+        width: 100%;
+        align-self: center;
+        justify-content: center;
+    }
+    
+    .estilo-img{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .img-logo_pagina{
+        width: 90%;
+        height: auto;
+    }
+    
+    .botaoCurriculo {
+        display: flex;
+        height: 30px;
+        margin-top: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .fraseDow, .imagem-ia, .box-tec, .tec, .linha{
+        display: none;
+    }
+
+    .imgCurriculo{
+        width: 40px;
+    }
+
+    .texto-sobre_mim{
+        color: #00D67D;
+        font-size: 20px;
+        text-wrap: wrap;
+    }
+    
+    .sobre-mim{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .borda1{
+        width: 80%;
+        height: auto;
+    }
+
+    .logo-pagina{
+        margin: 1cm 0 1cm 0;
+    }
+
+    .texto-sobre_mim, .texto-app{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .projetos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .img-texto{
+        flex-direction: column;
+    }
+
+    .foto-projeto{
+        width: 50%;
+        height: auto;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+    .card_projeto{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 50%;
+        margin-bottom: 1cm;
+        margin-right: 50px;
+    }
+
+    .box-texto{
+        width: 75%;
+        height: auto;
+        align-self: center;
+    }
+
+    .box-botao{
+        align-self: center;
+        width: 25%;
+    }
+
+    .botao, .botao-certificado, .obs{
+        font-size: 15px;
+    }
+
+    .certificados{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-certificados{
+        height: auto;
+        width: 40%;
+        margin-bottom: 1cm;
+        align-self: center;
+    }
+
+    .titulo, .titulo-contato, .texto-certificad{
+        font-size: 25px;
+    }
+
+    .texto-certificado, .nave{
+        font-size: 20px; 
+    }
+
+    .box-rodape{
+        width: 70%;
+    }
+
+    .texto-contato{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .navegacao-contato{
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    .box-links{
+        margin: 5px
+    }
+}

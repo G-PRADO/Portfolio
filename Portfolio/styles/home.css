@@ -1,0 +1,91 @@
+.cabecalho{
+    height: 100vh;
+}
+
+.sigla{
+    color:  #00D67D;
+    text-align: center;
+    font-size: 50px;
+}
+                
+strong {
+    color: #96C2D9;
+}
+
+.secao1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.nome{
+    font-size: 90px;
+    color: #00D67D;
+}
+
+.mobile {
+    font-family: monospace;
+    font-size: 90px;
+    color: #96C2D9;
+    margin-bottom: 20px;
+    border-right: 4px solid;
+    white-space: nowrap;
+    width: 21ch;
+    overflow: hidden;
+    animation: animaTexto steps(20) 2s, animadorMarcador 0.5s linear infinite;
+}
+
+@keyframes animaMarcador {
+    50%{
+        border-right: transparent;
+    }
+}
+
+@keyframes animaTexto {
+    0%{
+        width: 0;
+    }
+}
+
+.redes-Contato{
+    display: flex;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+}
+
+.estilo-img{
+    display: flex;
+    width: 20%;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.img-logo_pagina{
+    height: auto;
+    width: 40%;
+}
+
+.botaoCurriculo {
+    display: flex;
+    height: 30px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fraseDow{
+    font-size: 35px;
+    color: #00D67D;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.imgCurriculo{
+    width: 60px;
+}

@@ -1,0 +1,160 @@
+@media screen and (min-width: 315px) and (max-width: 320px) {
+
+    .cabecalho{
+        height: auto;
+        width: 100%;
+    }
+
+    .secao1{
+        display: flex;
+        height: 60vh;
+        width: 100%;
+    }
+
+    .secaoNome{
+        width: 100wh;
+        text-align: center;
+    }
+
+    .nome, .mobile, .sigla, .titulo, .titulo-contato, .texto-certificad, 
+    .texto-certificado, .texto-contato{
+        font-size: 15px;
+    }
+
+    .imgInicio{
+        width: 30px;
+    }
+    
+    .logo-pagina{
+        width: 100%;
+    }
+
+    .estilo-img{
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .img-logo_pagina{
+        width: 50%;
+        height: auto;
+    }
+
+    .img-logo_pagina{
+        width: 90%;
+        height: auto;
+        margin: 1cm 0 1cm 0;
+    }
+
+    .botaoCurriculo {
+        display: flex;
+        height: 30px;
+        margin-top: 5px;
+    }
+    
+    .fraseDow, .imagem-ia, .box-tec, .tec, .linha{
+       display: none;
+    }
+
+    .imgCurriculo{
+        width: 30px;
+    }
+
+    .sobre-mim{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .borda1{
+        width: 50%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto-sobre_mim, .texto-app, .obs{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .projetos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .img-texto{
+        flex-direction: column;
+    }
+
+    .foto-projeto{
+        width: 50%;
+        height: auto;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+    .card_projeto{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 50%;
+        margin-bottom: 1cm;
+    }
+
+    .box-texto{
+        width: 75%;
+        height: auto;
+    }
+
+    .box-botao{
+        align-self: center;
+        width: 25%;
+    }
+
+    .botao, .botao-certificado{
+        font-size: 10px;
+    }
+
+    .certificados{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .box-certificados{
+        height: auto;
+        width: 45%;
+        margin-bottom: 1cm;
+    }
+
+    .box-rodape{
+        width: 70%;
+    }
+
+    .navegacao-contato{
+        width: 75%;
+        justify-content: space-around;
+    }
+
+    .box-links{
+        margin: 5px
+    }
+
+    .img-link{
+        height: 30px;
+        width: 30px;
+    }
+
+    .nave{
+        font-size: 10px;
+    }
+}

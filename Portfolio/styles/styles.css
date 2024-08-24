@@ -1,0 +1,28 @@
+@import url("./sobre-mim.css");
+@import url("./projetos.css");
+@import url("./certificados.css");
+@import url("./contatos.css");
+@import url("./home.css");
+
+body{
+    background-color: #001926;
+}
+
+@media screen and (min-width: 600px) {
+
+    .cabecalho{
+        background-image: url(../IMAGENS/fundo-inicio.png);
+        background-position: center top;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100wh;
+    }
+
+    .rodape{
+        background-image: url("../IMAGENS/fundo-contato.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 1cm;
+    }
+}

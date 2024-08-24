@@ -1,0 +1,31 @@
+.logo-pagina{
+    display: flex;
+    justify-content: center;
+    margin: 2cm 0 2cm 0;
+}
+
+.imagem-ia{
+    width: 30%;
+    height: auto;
+}
+
+.sobre-mim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-sobre_mim{
+    color: #00D67D;
+    font-size: 30px;
+    text-wrap: wrap;
+}
+
+.borda1{
+    width: 20%;
+    border: #00D67D;
+    border-style: groove;
+    border-radius: 20px;
+    padding: 3%;
+    box-shadow: 0px 0px 10px rgba(0, 214, 125, 10);
+}
